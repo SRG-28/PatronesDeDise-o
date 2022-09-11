@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Lab3-SofiaRubie.jnlp">
+  <information>
+    <title>Lab3-SofiaRubie</title>
+    <vendor>sofia</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Lab3-SofiaRubie.jar" size="22291" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Lab3-SofiaRubie" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Observer.MainObserver"  name="Lab3-SofiaRubie" />
+  <update check="always"/>
+</jnlp>
